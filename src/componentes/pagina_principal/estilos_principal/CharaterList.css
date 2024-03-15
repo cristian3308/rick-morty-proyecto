@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "ricky";
+  src: url("./../../../../recursos/wubba-lubba-dub-dub-font/WubbaLubbaDubDub.ttf") format("truetype"),
+       url("./../../../../recursos/wubba-lubba-dub-dub-font/WubbaLubbaDubDub.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.character-list-container {
+    position: relative; /* Para que los botones estén posicionados relativamente al contenedor */
+  }
+  
+  .pagination-buttons {
+    position: absolute;
+    top: -25px; /* Puedes ajustar la posición vertical según tus necesidades */
+    left: 585px; /* Opcional: ajusta la posición horizontal según tus necesidades */
+    z-index: 1; /* Asegura que los botones estén por encima de las imágenes */
+  }
+  .character-grid-wrapper {
+    margin-top: 60px; /* Ajusta el margen superior según lo que necesites */
+  }
+  .volver-button{
+    display: flex;
+    position: relative;
+    top: 100px;
+    background-color: aqua;
+  }
+  @media only screen and (max-width: 600px) {
+    .character-list-container {
+      position: relative; /* Para que los botones estén posicionados relativamente al contenedor */
+    }
+    
+    .pagination-buttons {
+      display: flex;
+      position: absolute;
+      top: -45px; /* Puedes ajustar la posición vertical según tus necesidades */
+      left: 285px; /* Opcional: ajusta la posición horizontal según tus necesidades */
+      z-index: 1; /* Asegura que los botones estén por encima de las imágenes */
+    }
+    .character-grid-wrapper {
+      margin-top: 60px; /* Ajusta el margen superior según lo que necesites */
+    }
+  }

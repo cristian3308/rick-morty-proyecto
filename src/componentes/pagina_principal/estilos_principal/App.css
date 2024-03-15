@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "ricky";
+    src: url("./../../../../recursos/wubba-lubba-dub-dub-font/WubbaLubbaDubDub.ttf") format("truetype"),
+         url("./../../../../recursos/wubba-lubba-dub-dub-font/WubbaLubbaDubDub.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+.content{
+    margin-top: 80px;
+    margin-right: center;
+}
+
+.header {
+    text-align: center; /* Centraliza el contenido horizontalmente */
+    padding: 20px; /* Agrega un espacio de relleno */
+    height: 50px;
+    font-family: "ricky", sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgb(25, 198, 54);
+    margin-bottom: 10px; /* Añade espacio debajo del título */
+}
+
+.container {
+    
+    background-color: rgb(6, 6, 6); /* Cambia el color de fondo a negro */
+    color: rgb(52, 151, 166); /* Cambia el color del texto a blanco */
+    font-family: "ricky", cursive; /* Aplica la fuente Bangers */
+    margin: 0;
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    .content{
+        margin-top: 80px;
+        margin-right: center;
+
+    }
+    .header {
+        text-align: center; /* Centraliza el contenido horizontalmente */
+        padding: 30px; /* Agrega un espacio de relleno */
+        height: 30px;
+        font-family: "ricky", sans-serif;
+        font-size: 50px;
+        text-shadow: 2px 2px 2px rgb(25, 198, 54);
+        margin-bottom: 10px; /* Añade espacio debajo del título */
+    }
+    
+    .container {
+        margin: 0px;
+        padding: 30px;
+        background-color: rgb(6, 6, 6); /* Cambia el color de fondo a negro */
+        color: rgb(52, 151, 166); /* Cambia el color del texto a blanco */
+        font-family: "ricky", cursive; /* Aplica la fuente Bangers */
+        margin: auto;
+
+    }
+    .container {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+      }
+  }
+

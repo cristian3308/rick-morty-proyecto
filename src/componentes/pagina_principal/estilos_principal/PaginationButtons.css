@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: "ricky";
+    src: url("./../../../../recursos/wubba-lubba-dub-dub-font/WubbaLubbaDubDub.ttf") format("truetype"),
+         url("./../../../../recursos/wubba-lubba-dub-dub-font/WubbaLubbaDubDub.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+ }
+.page-button{
+    font-family: "ricky", sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgb(25, 198, 54);
+    left: -135px;
+}
+@media only screen and (max-width: 600px) {
+    .page-button{
+        font-size: 14px;
+        width: 150px;
+        height: fit-content;
+        top: 30px;
+        left: -285px;
+        justify-content: space-between;
+    }
+}
+
