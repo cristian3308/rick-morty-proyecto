@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rick-morty-proyecto/static/css/main.6d668730.css",
+    "main.js": "/rick-morty-proyecto/static/js/main.11b68464.js",
+    "static/js/845.b25065a2.chunk.js": "/rick-morty-proyecto/static/js/845.b25065a2.chunk.js",
+    "static/media/WubbaLubbaDubDub.otf": "/rick-morty-proyecto/static/media/WubbaLubbaDubDub.86e10f972b39a695c31c.otf",
+    "static/media/WubbaLubbaDubDub.ttf": "/rick-morty-proyecto/static/media/WubbaLubbaDubDub.7c59d82709e973b9aa08.ttf",
+    "index.html": "/rick-morty-proyecto/index.html",
+    "main.6d668730.css.map": "/rick-morty-proyecto/static/css/main.6d668730.css.map",
+    "main.11b68464.js.map": "/rick-morty-proyecto/static/js/main.11b68464.js.map",
+    "845.b25065a2.chunk.js.map": "/rick-morty-proyecto/static/js/845.b25065a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d668730.css",
+    "static/js/main.11b68464.js"
+  ]
+}
